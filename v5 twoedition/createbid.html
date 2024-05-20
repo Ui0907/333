@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- Эта форма отправит значение методом GET — мы получим URL с ответом -->
+<form action="" method="get">
+    <label>
+      Имя первого гостя:
+      <input type="text" name="name">
+    </label>
+    <button type="submit">Сохранить</button>
+  </form>
+
+<!-- Эта форма отправит данные методом POST -->
+<form action="" method="post">
+  <label for="post-name">
+    Имя второго гостя:
+    <input id="post-name" type="text" name="name">
+  </label>
+  <button type="submit">Сохранить</button>
+</form>
+
+<!-- Форма с радиокнопками -->
+<form action="" method="post">
+  <fieldset>
+    <legend>Выберите прожарку</legend>
+    <label>
+      <input type="radio" name="level">
+      Rare
+    </label>
+    <label>
+      <input type="radio" name="level"checked>
+      Medium
+    </label>
+    <label>
+      <input type="radio" name="level">
+      Well Done
+    </label>
+  </fieldset>
+</form>
+
+</body>
+</html>
